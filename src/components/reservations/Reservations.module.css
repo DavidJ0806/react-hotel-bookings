@@ -1,0 +1,13 @@
+.reservations {
+  font-size: 15px;
+  white-space: pre-line;
+  display: inline-block;
+}
+
+.reservationsTitle {
+  font-weight: bold;
+}
+
+.container {
+  position: absolute;
+}

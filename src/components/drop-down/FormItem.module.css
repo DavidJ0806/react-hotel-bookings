@@ -1,0 +1,100 @@
+.formInput {
+  margin-top: .5em;
+  margin-bottom: 0%;
+  width: 100%;
+  padding: .5em;
+  box-sizing: border-box;
+  display: inline-block;
+  order: 2;
+  outline: none;
+  font-size: 15;
+  border-width:1px;
+  border-color:-internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
+
+.formLabel {
+  font-weight: 700;
+  color: #666666;
+  margin-bottom: .5em;
+  display: block;
+}
+
+.radio  {
+  display: inline;  
+  margin-bottom: .3em;
+  margin-right: 1em;
+}
+
+.radioValue {
+  display: inline;
+  font-weight: 200;
+}
+
+.radioLine{
+  margin-top: .5em;
+  display: block;
+}
+.errorHidden {
+  position: absolute;
+  visibility: hidden;
+}
+
+.errorNone {
+  display: none;
+}
+
+.errorShow {
+  font-size: 12px;
+  margin-top: 0%;
+  position: absolute;
+  color: red;
+}
+
+.errorBorder {
+  border: 1px solid red;
+}
+
+.flexError{
+  margin-top: 6em;
+}
+.logo {
+  height: 17.5px;
+  float: right;
+}
+
+.inputIcon {
+  color: white;
+  padding: 8.5px;
+  min-width: 38px;
+  background: #007BFF;
+  order: 1;
+  text-align: center;
+  margin-top: .5em;
+  line-height: normal;
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+.inputNotification {
+  position: absolute;
+  color: green;
+  margin-top: .7em;
+  right: 1%;
+}
+
+.inputNotificationError {
+  position: absolute;
+  color: #ff411f;
+  margin-top: .7em;
+  right: 1%;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.notificationContainer {
+  position: relative;
+}
